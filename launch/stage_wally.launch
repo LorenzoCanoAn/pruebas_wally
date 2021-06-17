@@ -1,0 +1,7 @@
+<launch>
+    <arg name="world_file" value="$(find training)/world/corridor/corridor.world" />
+    <!-- LAUNCH STAGE -->
+    <node name="stage" pkg="stage_ros" type="stageros" args="$(arg world_file)">    </node>
+
+    <include file
+</launch>
